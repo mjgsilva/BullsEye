@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1C55E31A7ED92E00D69BBC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C55E21A7ED92E00D69BBC /* AboutViewController.swift */; };
 		AC35D8311A7C306E009F5D86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC35D8301A7C306E009F5D86 /* AppDelegate.swift */; };
 		AC35D8331A7C306E009F5D86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC35D8321A7C306E009F5D86 /* ViewController.swift */; };
 		AC35D8361A7C306E009F5D86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC35D8341A7C306E009F5D86 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC1C55E21A7ED92E00D69BBC /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		AC35D82B1A7C306E009F5D86 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC35D82F1A7C306E009F5D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC35D8301A7C306E009F5D86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				AC35D8301A7C306E009F5D86 /* AppDelegate.swift */,
 				AC35D8321A7C306E009F5D86 /* ViewController.swift */,
 				AC35D8341A7C306E009F5D86 /* Main.storyboard */,
+				AC1C55E21A7ED92E00D69BBC /* AboutViewController.swift */,
 				AC35D8371A7C306E009F5D86 /* Images.xcassets */,
 				AC35D8391A7C306E009F5D86 /* LaunchScreen.xib */,
 				AC35D82E1A7C306E009F5D86 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1C55E31A7ED92E00D69BBC /* AboutViewController.swift in Sources */,
 				AC35D8331A7C306E009F5D86 /* ViewController.swift in Sources */,
 				AC35D8311A7C306E009F5D86 /* AppDelegate.swift in Sources */,
 			);
