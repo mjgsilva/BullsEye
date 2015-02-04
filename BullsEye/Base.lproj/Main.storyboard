@@ -116,11 +116,18 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8l-sT-PT8">
-                                <rect key="frame" x="255" y="210" width="58" height="33"/>
+                                <rect key="frame" x="246" y="210" width="76" height="33"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="Whj-8Y-QMG"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                <state key="normal" title="Hit me!">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="normal" title="Hit me!"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="showAlert" destination="vXZ-lx-hvc" eventType="touchUpInside" id="drU-sv-C75"/>
                                 </connections>
@@ -129,6 +136,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="cy4-Rn-BIB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="43W-v5-SeE"/>
+                            <constraint firstItem="X8l-sT-PT8" firstAttribute="centerX" secondItem="Im1-4s-IpS" secondAttribute="centerX" id="5sZ-qY-FxP"/>
                             <constraint firstItem="ADx-5x-BHS" firstAttribute="leading" secondItem="cy4-Rn-BIB" secondAttribute="trailing" constant="-30" id="789-nA-VWs"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="cy4-Rn-BIB" secondAttribute="bottom" id="7W5-29-jUE"/>
                             <constraint firstAttribute="trailing" secondItem="cy4-Rn-BIB" secondAttribute="trailing" id="EkW-60-Be2"/>
@@ -143,9 +151,8 @@
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="vbE-vd-NsH" secondAttribute="bottom" constant="3" id="bXO-DP-IXg"/>
                             <constraint firstItem="cy4-Rn-BIB" firstAttribute="top" secondItem="Ieg-rp-g9S" secondAttribute="bottom" constant="-103" id="dPn-Lm-qI2"/>
                             <constraint firstItem="qi1-ee-LT1" firstAttribute="leading" secondItem="Im1-4s-IpS" secondAttribute="trailing" constant="8" id="fuE-pe-eGV"/>
-                            <constraint firstItem="X8l-sT-PT8" firstAttribute="top" secondItem="Im1-4s-IpS" secondAttribute="bottom" constant="35" id="jvN-No-SrJ"/>
+                            <constraint firstItem="vbE-vd-NsH" firstAttribute="top" secondItem="X8l-sT-PT8" secondAttribute="bottom" constant="8" symbolic="YES" id="lI1-Nj-JUc"/>
                             <constraint firstAttribute="centerX" secondItem="Ieg-rp-g9S" secondAttribute="centerX" id="nmw-Q1-hlB"/>
-                            <constraint firstAttribute="centerX" secondItem="X8l-sT-PT8" secondAttribute="centerX" id="qrT-31-Pru"/>
                             <constraint firstItem="vbE-vd-NsH" firstAttribute="leading" secondItem="bxC-al-MAm" secondAttribute="trailing" constant="12" id="xh8-aJ-mkj"/>
                             <constraint firstItem="cy4-Rn-BIB" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="xrp-Pr-Lp8"/>
                         </constraints>
