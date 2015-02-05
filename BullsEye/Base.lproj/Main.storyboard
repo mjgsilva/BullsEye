@@ -25,6 +25,7 @@
                                     <constraint firstAttribute="width" constant="386" id="Q8G-Pf-EbW"/>
                                     <constraint firstAttribute="height" constant="30" id="Vhc-De-1oO"/>
                                 </constraints>
+                                <color key="minimumTrackTintColor" red="0.81960784313725488" green="0.47058823529411764" blue="0.10980392156862745" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="sliderMoved:" destination="vXZ-lx-hvc" eventType="valueChanged" id="LUL-Qe-ccg"/>
                                 </connections>
@@ -43,6 +44,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADx-5x-BHS">
                                 <rect key="frame" x="538" y="290" width="22" height="22"/>
+                                <color key="tintColor" red="0.82008473439999996" green="0.47122518720000001" blue="0.10797128659999999" alpha="0.48999999999999999" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -87,6 +89,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxC-al-MAm">
                                 <rect key="frame" x="74" y="270" width="68" height="30"/>
                                 <state key="normal" title="Start over">
+                                    <color key="titleColor" red="0.81960784313725488" green="0.47058823529411764" blue="0.10980392156862745" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -117,13 +120,13 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8l-sT-PT8">
                                 <rect key="frame" x="246" y="210" width="76" height="33"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.41852114898989901" green="0.091825532958217965" blue="0.11844693549154071" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="76" id="Whj-8Y-QMG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <state key="normal" title="Hit me!">
-                                    <color key="titleColor" red="0.41176470588235292" green="0.22745098039215686" blue="0.22745098039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
